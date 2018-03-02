@@ -634,12 +634,10 @@
 		margin: 1.5rem 0;
 	}
 
-}
-
-@media screen and (max-width: 450px) {
 	.about {
 		display: none;
 	}
+
 }
 
 /* List */
