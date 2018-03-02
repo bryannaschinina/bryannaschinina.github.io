@@ -99,7 +99,7 @@ function animation() {
   };
 
   window.requestAnimationFrame(animation);
-  resize();
+  
 }
 
 function resize(canvas) {
