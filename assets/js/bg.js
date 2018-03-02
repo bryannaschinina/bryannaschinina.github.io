@@ -1,6 +1,6 @@
 //Form
 var contactform = document.getElementById('contactform');
-contactform.setAttribute('action', '//formspree.io' + 'askewfoo' + '@' + 'gmail' + '.' + 'com');
+contactform.setAttribute('action', '//formspree.io/' + 'askewfoo' + '@' + 'gmail' + '.' + 'com');
 
 // Background
 
