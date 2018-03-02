@@ -100,6 +100,7 @@ function animation() {
   };
 
   window.requestAnimationFrame(animation);
+  resize(canvas);
 }
 
 function resize(canvas) {
