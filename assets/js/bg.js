@@ -88,10 +88,11 @@ for (var i = 0; i < maxStars; i++) {
 }
 
 function animation() {
+  var x = h + 200;
   ctx.globalCompositeOperation = 'source-over';
   ctx.globalAlpha = 0.8;
   ctx.fillStyle = 'hsla(' + hue + ', 64%, 6%, 1)';
-  ctx.fillRect(0, 0, w, h);
+  ctx.fillRect(0, 0, w, x);
 
   ctx.globalCompositeOperation = 'lighter';
   for (var i = 1, l = stars.length; i < l; i++) {
@@ -99,7 +100,6 @@ function animation() {
   };
 
   window.requestAnimationFrame(animation);
-  
 }
 
 function resize(canvas) {
