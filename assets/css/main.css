@@ -1444,7 +1444,7 @@
 
   .timeline::after {
     left: 2em;
-    height: 400px;
+    height: 375px;
   }
 
   .time-left {
