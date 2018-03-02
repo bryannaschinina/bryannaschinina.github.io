@@ -633,11 +633,12 @@
 	.image.main {
 		margin: 1.5rem 0;
 	}
+}
 
+@media screen and (max-width: 400px) {
 	img.about {
 		display: none;
 	}
-
 }
 
 /* List */
@@ -1443,7 +1444,7 @@
 
   .timeline::after {
     left: 2em;
-    height: 340px;
+    height: 375px;
   }
 
   .time-left {
